@@ -47,6 +47,8 @@ export default config
 
 Now run `gatsby build`. A browser window will automatically open with the Statoscope UI. The output will be placed into the `public/.staticscope` folder.
 
+When enabling the `watchMode` option you can also use this plugin with `gatsby develop`.
+
 ## Plugin Options
 
 All options for [@statoscope/webpack-plugin](https://github.com/statoscope/statoscope/tree/master/packages/webpack-plugin) are passed through. Read its [usage section](https://github.com/statoscope/statoscope/tree/master/packages/webpack-plugin#usage) to learn more.
