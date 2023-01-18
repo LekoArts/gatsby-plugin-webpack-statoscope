@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-webpack-statoscope",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Gatsby plugin for the statoscope HTML-report from webpack-stats (@statoscope/webpack-plugin)",
   "main": "dist/gatsby-node.js",
   "source": "src/gatsby-node.ts",
