@@ -1,23 +1,19 @@
 import type { GatsbyNode } from "gatsby"
 import type { ObjectSchema } from "gatsby-plugin-utils"
-import { DEFAULT_OPTIONS } from "./constants"
-
-const wrapOptions = (innerOptions) => `{
-  resolve: \`gatsby-plugin-webpack-statoscope\`,
-  options: {
-    ${innerOptions.trim()}
-  },
-}
-`
 
 export const pluginOptionsSchema: GatsbyNode["pluginOptionsSchema"] = ({ Joi }): ObjectSchema =>
   Joi.object({
-    optionA: Joi.string()
-      .required()
-      .description(`Example description for optionA`)
-      .meta({ example: wrapOptions(`optionA: "Hello World",`) }),
-    optionB: Joi.string()
-      .default(DEFAULT_OPTIONS.optionB)
-      .description(`Example description for optionB`)
-      .meta({ example: wrapOptions(`optionB: "Hello World Again",`) }),
+    name: Joi.string().optional(),
+    saveReportTo: Joi.string().optional(),
+    saveStatsTo: Joi.string().optional(),
+    normalizeStats: Joi.boolean().optional(),
+    saveOnlyStats: Joi.boolean().optional(),
+    disableReportCompression: Joi.boolean().optional(),
+    additionalStats: Joi.array().items(Joi.string()).optional(),
+    statsOptions: Joi.object().optional(),
+    watchMode: Joi.boolean().optional(),
+    open: Joi.alternatives().try(Joi.string().valid(`dir`, `file`), false).optional(),
+    compressor: Joi.any().optional(),
+    reports: Joi.any().optional(),
+    extensions: Joi.any().optional(),
   })
