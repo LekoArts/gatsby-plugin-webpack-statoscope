@@ -45,7 +45,7 @@ const config: GatsbyConfig = {
 export default config
 ```
 
-Now run `gatsby build`. A browser window will automatically open with the Statoscope UI. The output will be placed into the `public/.staticscope` folder.
+Now run `gatsby build`. A browser window will automatically open with the Statoscope UI. The output will be placed into the `public/.statoscope` folder.
 
 When enabling the `watchMode` option you can also use this plugin with `gatsby develop`.
 
@@ -53,4 +53,4 @@ When enabling the `watchMode` option you can also use this plugin with `gatsby d
 
 All options for [@statoscope/webpack-plugin](https://github.com/statoscope/statoscope/tree/master/packages/webpack-plugin) are passed through. Read its [usage section](https://github.com/statoscope/statoscope/tree/master/packages/webpack-plugin#usage) to learn more.
 
-By setting the `saveReportTo` and `saveStatsTo` options you can overwrite the default `public/.staticscope` location.
+By setting the `saveReportTo` and `saveStatsTo` options you can overwrite the default `public/.statoscope` location.
