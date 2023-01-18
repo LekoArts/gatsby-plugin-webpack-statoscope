@@ -1,5 +1,11 @@
 # gatsby-plugin-webpack-statoscope
 
+## 1.0.1
+
+### Patch Changes
+
+- [`49abd93`](https://github.com/LekoArts/gatsby-plugin-webpack-statoscope/commit/49abd93db26a7013a00dcb5c69d73c30e9b9e04f) Thanks [@LekoArts](https://github.com/LekoArts)! - chore: Update README
+
 ## 1.0.0
 
 ### Major Changes
