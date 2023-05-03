@@ -25,3 +25,5 @@ jobs:
         run: yarn --immutable
       - name: Run Parcel Build
         run: yarn package:build
+      - name: Run TypeScript
+        run: yarn typecheck
