@@ -24,6 +24,6 @@ jobs:
       - name: Install dependencies
         run: yarn --immutable
       - name: Run Vitest
-        run: yarn test:ci
+        run: yarn test:run
       - name: Run TypeScript
         run: yarn typecheck
