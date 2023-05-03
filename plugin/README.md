@@ -1,6 +1,6 @@
 # gatsby-plugin-webpack-statoscope
 
-Gatsby plugin for the statoscope HTML-report from webpack-stats ([@statoscope/webpack-plugin](https://github.com/statoscope/statoscope/tree/master/packages/webpack-plugin)). The Statoscope webpack-plugin is developed by [Statoscope](https://statoscope.tech/).
+Gatsby plugin for the statoscope HTML-report from webpack-stats ([@statoscope/webpack-plugin](https://github.com/statoscope/statoscope/tree/master/packages/webpack-plugin)). The Statoscope webpack-plugin is developed by [Statoscope](https://statoscope.tech/). This plugin is an alternative to [gatsby-plugin-webpack-bundle-analyser-v2](https://www.gatsbyjs.com/plugins/gatsby-plugin-webpack-bundle-analyser-v2/) which also allows you to visualize the size of output files with an interactive zoomable treemap.
 
 Consider reading [Statoscope: A Course Of Intensive Therapy For Your Bundle](https://www.smashingmagazine.com/2022/02/statoscope-course-intensive-therapy-bundle/) to learn more.
 
