@@ -4,6 +4,27 @@ Gatsby plugin for the statoscope HTML-report from webpack-stats ([@statoscope/we
 
 Consider reading [Statoscope: A Course Of Intensive Therapy For Your Bundle](https://www.smashingmagazine.com/2022/02/statoscope-course-intensive-therapy-bundle/) to learn more.
 
+<p>
+  <a href="https://github.com/LekoArts/gatsby-plugin-webpack-statoscope/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="gatsby-plugin-webpack-statoscope is released under the MIT license." />
+  </a>
+  <a href="https://www.npmjs.org/package/gatsby-plugin-webpack-statoscope">
+    <img src="https://img.shields.io/npm/v/gatsby-plugin-webpack-statoscope.svg" alt="Current npm package version." />
+  </a>
+  <a href="https://npmcharts.com/compare/gatsby-plugin-webpack-statoscope?minimal=true">
+    <img src="https://img.shields.io/npm/dm/gatsby-plugin-webpack-statoscope.svg" alt="Downloads per month on npm." />
+  </a>
+  <a href="https://npmcharts.com/compare/gatsby-plugin-webpack-statoscope?minimal=true">
+    <img src="https://img.shields.io/npm/dt/gatsby-plugin-webpack-statoscope.svg" alt="Total downloads on npm." />
+  </a>
+  <a href="https://www.lekoarts.de?utm_source=gatsby-plugin-webpack-statoscope">
+    <img alt="Website" src="https://img.shields.io/badge/-website-blue">
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
+      <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @lekoarts_de" />
+    </a>
+</p>
+
 ## Install
 
 ```shell
